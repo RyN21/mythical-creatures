@@ -9,7 +9,6 @@ defmodule UnicornTest do
     assert unicorn.name == 'Robert'
   end
 
-  @tag :skip
   test 'it is white by default' do
     unicorn = %Unicorn{name: 'Margaret'}
 
